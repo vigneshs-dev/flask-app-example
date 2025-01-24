@@ -1,1 +1,57 @@
 # Created by .ignore support plugin (hsz.mobi)
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+*.env
+*.venv
+
+# Environment variable files
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Flask-specific files
+instance/
+*.sqlite3
+*.db
+*.sqlite
+
+# Static and Media Files (if generated dynamically)
+staticfiles/
+mediafiles/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build and distribution directories
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
