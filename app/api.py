@@ -6,4 +6,4 @@ from flask import jsonify
 
 @bp.route('/', methods=['GET'])
 def index():
-    return jsonify({"message": "This is the /api endpoint"})
+    return jsonify({"message": "This is the /api endpoint!"})
